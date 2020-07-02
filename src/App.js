@@ -6,12 +6,16 @@ function App() {
   const [value, setValue] = useState("");
   const [dbValue, saveToDb] = useState(""); // would be an API call normally
 
+  const handleChange = (event) => {
+    setValue(event.target.value);
+  };
+
   return (
     <main>
       <h1>Blog</h1>
       <textarea
         value={value}
-        onChange={(event) => setValue(event.target.value)}
+        onChange={handleChange}
         onchange
         rows={5}
         cols={50}
