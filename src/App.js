@@ -13,13 +13,7 @@ function App() {
   return (
     <main>
       <h1>Blog</h1>
-      <textarea
-        value={value}
-        onChange={handleChange}
-        onchange
-        rows={5}
-        cols={50}
-      />
+      <textarea value={value} onChange={handleChange} rows={5} cols={50} />
       <section className="panels">
         <div>
           <h2>Editor (Client)</h2>
