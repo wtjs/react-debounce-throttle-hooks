@@ -36,6 +36,7 @@ function Debouncer() {
 	return (
 		<main>
 			<h1>Blog</h1>
+
 			<textarea value={value} onChange={handleChange} rows={5} cols={50} />
 			<section className='panels'>
 				<div>
@@ -47,6 +48,10 @@ function Debouncer() {
 					{dbValue}
 				</div>
 			</section>
+			<p className='helper-text'>
+				{' '}
+				Here you will notice, that unless you stop writing the Saved DB value doesnt get updated.
+			</p>
 		</main>
 	);
 }
