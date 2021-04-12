@@ -3,3 +3,16 @@
 	grid-template-columns: 1fr 1fr;
 	grid-gap: 48px;
 }
+
+.btn {
+	padding: 20px 140px 20px 140px;
+	background: #ee9897;
+	font-size: 24px;
+}
+
+.helper-text {
+	padding: 20px 140px 20px 140px;
+	background: #e0e5ec;
+	color: #838a99;
+	font-size: 24px;
+}
